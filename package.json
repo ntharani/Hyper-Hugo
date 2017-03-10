@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --inline --hot",
-    "build": "webpack -p --env.production --display-error-details",
+    "build": "webpack -p --env.production --display-error-details --progress",
     "builddev": "webpack",
     "hugo": "hugo -v",
     "hugos": "hugo server -v",
