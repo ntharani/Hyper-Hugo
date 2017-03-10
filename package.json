@@ -1,7 +1,7 @@
 {
   "name": "hyperhugo",
-  "main": "./public/js/app.js",
-  "browser": "./public/js/app.js",
+  "main": "app.js",
+  "browser": "app.js",
   "version": "1.0.0",
   "license": "MIT",
   "devDependencies": {

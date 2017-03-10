@@ -1,6 +1,0 @@
-[build]
-  command = "yarn run build"
-  publish = "public"
-
-[context.deploy-preview]
-  command = "yarn run build"
