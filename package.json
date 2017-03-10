@@ -30,6 +30,5 @@
     "hw": "yarn run hugo && yarn run builddev && yarn run hugos"
   },
   "dependencies": {
-    "materialize-css": "^0.98.0"
   }
 }

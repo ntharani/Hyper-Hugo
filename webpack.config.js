@@ -13,14 +13,32 @@ module.exports = (env = {}) => {
   
   // console.log(`The environment variable I received is, ${env}`)
   return {
-    context: path.resolve(__dirname, 'public'),
-    entry: {
-      app: './js/app'
-    },
-    output: {
-      path: path.resolve(__dirname, 'public/js'), // used to be dist
-      filename: '[name].bundle.js'
-    },
+
+  context: path.join(__dirname, "public"),
+  entry: {
+    app: ["./js/app"]
+  },
+  output: {
+    path: path.join(__dirname, "public/js"),
+    publicPath: "/",
+    filename: "[name].js"
+  },
+
+
+
+
+
+
+
+    
+    // context: path.resolve(__dirname, 'public'),
+    // entry: {
+    //   app: './js/app'
+    // },
+    // output: {
+    //   path: path.resolve(__dirname, 'public/js'), // used to be dist
+    //   filename: '[name].bundle.js'
+    // },
     module: (() => {
       if (isProduction) return {
       rules: [
