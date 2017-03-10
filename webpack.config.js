@@ -15,7 +15,7 @@ module.exports = (env = {}) => {
   return {
     context: path.join(__dirname, 'public/js'),
     entry: {
-      app: './app.js'
+      app: './app'
     },
     output: {
       path: path.resolve(__dirname, 'public/js'), // used to be dist
@@ -135,4 +135,4 @@ module.exports = (env = {}) => {
       else return 'source-map'
     })(),    
   }
-}
+};
