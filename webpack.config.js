@@ -13,9 +13,9 @@ module.exports = (env = {}) => {
   
   // console.log(`The environment variable I received is, ${env}`)
   return {
-    context: path.resolve(__dirname, 'public'),
+    context: path.join(__dirname, 'public'),
     entry: {
-      app: path.resolve(__dirname, 'public/js/app.js')
+      app: './js/app.js'
     },
     output: {
       path: path.resolve(__dirname, 'public/js'), // used to be dist
