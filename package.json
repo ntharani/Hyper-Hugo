@@ -25,6 +25,7 @@
   "scripts": {
     "start": "webpack-dev-server --inline --hot",
     "build": "webpack -p --env.production --display-error-details --progress",
+    "hugonet": "yarn hugo && yarn build",
     "builddev": "webpack",
     "hugo": "hugo -v",
     "hugos": "hugo server -v",
