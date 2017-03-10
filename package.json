@@ -1,7 +1,8 @@
 {
-  "name": "webpack-demo",
+  "name": "hyperhugo",
+  "main": "./public/js/app.js",
+  "browser": "./public/js/app.js",
   "version": "1.0.0",
-  "main": "app.js",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.23.1",
