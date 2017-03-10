@@ -9,6 +9,8 @@
 # Icon must end with two \r
 Icon
 
+# No Hugo Public Directory
+public/
 
 # Thumbnails
 ._*
