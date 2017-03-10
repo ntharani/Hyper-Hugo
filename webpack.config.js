@@ -15,7 +15,7 @@ module.exports = (env = {}) => {
   return {
     context: path.resolve(__dirname, 'public'),
     entry: {
-      app: './js/app.js'
+      app: '/js/app.js'
     },
     output: {
       path: path.resolve(__dirname, 'public/js'), // used to be dist
