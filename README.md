@@ -92,7 +92,7 @@ hugo s
 
 ## What about this Webpack stuff?
 
-- Webpack is a offically a module bundler, but can do much more and act a task runner with plugins. Using WebPack allows you to write modern, future CSS code and Javascript today. 
+- Webpack is offically a module bundler, but can do much more and act a task runner with plugins. Using WebPack allows you to write modern, future CSS code and Javascript today. 
 - Webpack also can prepare your code for production, eg: compressing files, etc.
 - The `static/js/app.js` file is the entrypoint for webpack. Anything referenced by this file will be built to `/public/`. (Put another way, all the stuff in `/public` that is built by Hugo will then be optimized and saved to the same directory.
 
