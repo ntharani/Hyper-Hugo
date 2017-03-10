@@ -25,6 +25,7 @@
     "start": "webpack-dev-server --inline --hot",
     "build": "webpack -p --env.production --display-error-details --progress",
     "builddev": "webpack",
+    "netlifyhugo": "yarn run hugo && yarn build",
     "hugo": "hugo -v",
     "hugos": "hugo server -v",
     "hw": "yarn run hugo && yarn run builddev && yarn run hugos"
