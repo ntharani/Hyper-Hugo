@@ -13,7 +13,7 @@ module.exports = (env = {}) => {
   
   // console.log(`The environment variable I received is, ${env}`)
   return {
-    context: path.join(__dirname, 'public'),
+    context: path.resolve(__dirname, 'public'),
     entry: {
       app: './js/app'
     },
