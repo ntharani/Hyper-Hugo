@@ -49,7 +49,7 @@ yarn start
 .
 ├── archetypes				
 ├── content					// Where your blogs and page content resides
-├── data					// YAML/TOML data files.
+├── data						// YAML/TOML data files.
 ├── layouts					// All templates for Hugo
 │   └── index.html
 ├── public					// This folder will be generated when you type 'hugo'
