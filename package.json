@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --inline --hot",
-    "build": "webpack -p --env.production --display-error-details --progress",
+    "build": "webpack -p --env.production --progress",
     "builddev": "webpack",
     "netlifyhugo": "yarn run hugo && yarn build",
     "hugo": "hugo -v",
