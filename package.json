@@ -27,7 +27,7 @@
     "build": "webpack -p --env.production --progress",
     "builddev": "webpack",
     "netlifyhugo": "yarn run hugo && yarn build",
-    "hugo": "hugo -v",
+    "hugo": "hugo_0.19 -v",
     "hugos": "hugo server -v",
     "hw": "yarn run hugo && yarn run builddev && yarn run hugos"
   },
