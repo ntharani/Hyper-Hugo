@@ -18,19 +18,23 @@
 
   <body>
 
+    <header>
     {{ block "global_header" . }}
         <!-- The part of the page that begins to differ between templates -->
     {{ end }}
+    </header>
 
-
+    <main>
     {{ block "main" . }}
         <!-- The part of the page that begins to differ between templates -->
     {{ end }}
+    </main>
 
+    <footer>
     {{ block "global_footer" . }}
         <!-- The part of the page that begins to differ between templates -->
     {{ end }}
-
+    </footer>
     
     <link  href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
