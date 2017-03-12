@@ -1,41 +1,6 @@
 
 {{ define "global_header" }}
-
-<header>
-  <!-- Dropdown Structure -->
-  <ul id="dropdown1" class="dropdown-content">
-    <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">three</a></li>
-  </ul>
-
-
-  <nav class="blue">
-  <div class="container">
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo">H/Y/P/E/R/ HUGO</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="sass.html">Services</a></li>
-        <li><a href="badges.html">Blog</a></li>
-        <li><a href="collapsible.html">About</a></li>
-          <!-- Dropdown Trigger -->
-<!--         <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li> -->
-      </ul>
-      <ul class="side-nav" id="mobile-demo">
-        <li><a href="sass.html">Services</a></li>
-        <li><a href="badges.html">Blog</a></li>
-        <li><a href="collapsible.html">About</a></li>
-      </ul>
-    </div>
-  </div>
-  </nav>
-          
-
-
-</header>
-
+  {{ partial "header.html" . }}
 {{ end }}
 
 {{ define "main" }}
@@ -63,7 +28,7 @@
             <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
             <h5 class="center">Fast</h5>
 
-            <p class="light center">Develop and iterate quickly.</p>
+            <p class="light center">Develop and iterate quickly with a solid base template, SEO friendly and opinionated framework</p>
           </div>
         </div>
 
@@ -81,7 +46,7 @@
             <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
             <h5 class="center">Modern</h5>
 
-            <p class="light center">Uses WebPack2 to help your prepare your site for production deployments with ease</p>
+            <p class="light center">Uses WebPack 2 to help you prepare your site for production deployments with ease</p>
           </div>
         </div>
       </div>
@@ -97,44 +62,8 @@
 
 </section>
 
-
 {{ end }}
 
 {{ define "global_footer" }}
-  <footer class="page-footer #00bcd4 cyan">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">Hugo Static Generator theme with MaterializeCSS and WebPack 2 For Building Production Websites</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="orange-text text-lighten-3" href="http://gohyperstatic.com">H/Y/P/E/R/S/T/A/T/I/C</a> With <a class="orange-text text-lighten-3" href="http://materializecss.com">MaterializeCSS</a> and <a class="orange-text text-lighten-3" href="http://gohugo.io">HUGO</a>
-      </div>
-    </div>
-  </footer>
-
+  {{ partial "footer.html" . }}
 {{ end }}

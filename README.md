@@ -6,6 +6,10 @@
 4. Add FB, Twitter, Google share/rich site data
 5. Add Google Analytics
 
+# Done
+
+- Factor header and footer into partials and master layout.
+
 # Hyper Hugo
 
 ## [Hugo](https://gohugo.io/) & WebPack 2 with Materialize.css
