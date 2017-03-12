@@ -19,8 +19,13 @@ section {
 
 }
 
+h1#hero {
+	padding: 3em 0;
+}
 
-section.home {minheight: 50vh	}
+section.home {
+	min-height: 50vh;	
+}
 
 .nav-wrapper > .brand-logo {
 font-size: 1.4em;
