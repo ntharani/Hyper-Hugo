@@ -1,3 +1,11 @@
+# To Do:
+
+1. Add content archetypes back in
+2. Add blog type and front matter
+3. Add section type and associated front matter
+4. Add FB, Twitter, Google share/rich site data
+5. Add Google Analytics
+
 # Hyper Hugo
 
 ## [Hugo](https://gohugo.io/) & WebPack 2 with Materialize.css
