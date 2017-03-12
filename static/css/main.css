@@ -1,16 +1,39 @@
 section {
 	margin: 0;
-	padding: 0.5em;
+	padding: 1em;
 }
 
-section.home {
-	height:  50vh;	
+@media only screen and (min-device-width:320px) and (max-device-width : 768px) {
+	section {
+ 		margin:  0;
+ 		padding: 0.1em 0.1em;
+ 	}	
+
+	h4 { font-size: 6.5vmin !important; }
+	h5 { font-size: 6vmin !important; }
+
+
+	.icon-block .material-icons {
+		font-size: 2.2em !important;
+	}
+
 }
 
-#home-hero {
-	background: grey;
+
+section.home {minheight: 50vh	}
+
+.nav-wrapper > .brand-logo {
+font-size: 1.4em;
+letter-spacing: -0.05em;
 }
 
-#home-halfway{
-	background: darkblue;
+h1 { font-size: 8vmin !important; }
+h2 { font-size: 7.5vmin !important; }
+h3 { font-size: 7vmin !important; }
+
+.icon-block {
+  padding: 0 0.5em;
+}
+.icon-block .material-icons {
+	font-size: inherit;
 }
