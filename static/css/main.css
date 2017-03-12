@@ -1,0 +1,16 @@
+section {
+	margin: 0;
+	padding: 0.5em;
+}
+
+section.home {
+	height:  50vh;	
+}
+
+#home-hero {
+	background: grey;
+}
+
+#home-halfway{
+	background: darkblue;
+}

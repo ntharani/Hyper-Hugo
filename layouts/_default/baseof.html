@@ -1,0 +1,39 @@
+<html>
+
+  <head>
+  
+  <meta name="generator" content="Hugo 0.18.1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+
+  <title>
+    {{ block "title" . }} {{ if .IsHome }} {{ else }} {{ if .Title }} {{ .Title }} -  {{ end }} {{ end }} {{ .Site.Title }} {{ end }}
+  </title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/commons.js"></script>
+    <script src="js/app.bundle.js"></script>
+  
+  </head>
+
+  <body>
+
+    {{ block "global_header" . }}
+        <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+
+
+    {{ block "main" . }}
+        <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+
+    {{ block "global_footer" . }}
+        <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+
+    
+    <link  href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+  </body>
+</html>

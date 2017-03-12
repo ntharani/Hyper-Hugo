@@ -26,7 +26,8 @@ module.exports = (env = {}) => {
       rules: [
         {
           test: /\.js$/,
-          include: path.resolve(__dirname, 'public'),
+          // include: path.resolve(__dirname, 'public'),
+          exclude: /node_modules/,
           use: [{
             loader: 'babel-loader',
             options: {
@@ -61,14 +62,15 @@ module.exports = (env = {}) => {
             options: { name: '../fonts/[name].[ext]'}
           }]
           // loader: 'file-loader?name=public/fonts/[name].[ext]'
-        }              
+        }    
       ]
       }
       else return {
       rules: [
         {
           test: /\.js$/,
-          include: path.resolve(__dirname, 'public'),
+          exclude: /node_modules/,
+          // include: path.resolve(__dirname, 'public'),
           use: [{
             loader: 'babel-loader',
             options: {
@@ -102,7 +104,7 @@ module.exports = (env = {}) => {
             options: { name: '../fonts/[name].[ext]'}
           }]
           // loader: 'file-loader?name=public/fonts/[name].[ext]'
-        }              
+        }                      
       ]
       }
     })(),
