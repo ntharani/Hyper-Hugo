@@ -1,4 +1,4 @@
 languageCode = "en-us"
 title = "My  Hyper Hugo Site"
-baseurl = "http://example.org/"
+baseurl = "/"
 theme = "HST"

@@ -5,13 +5,11 @@
 {{ define "main" }}
 
 <div class="container">
-<h1>Single Page Blog</h1>
-<p>This is located within the folder /blog/single.html</p>
+<!-- <p>This is located within the folder /blog/single.html</p> -->
 
   <h1>{{ .Title }}</h1>
   <h6>{{ .Date.Format "Mon, Jan 2, 2006" }}</h6>
   {{ .Content }}
-  <h4><a href="{{ .Site.BaseURL }}">Home</a></h4>	
 </div>
 
 {{ end }}
