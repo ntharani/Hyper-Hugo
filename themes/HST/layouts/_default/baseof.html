@@ -14,6 +14,9 @@
     <script src="{{ .Site.BaseURL }}js/commons.js"></script>
     <script src="{{ .Site.BaseURL }}js/app.bundle.js"></script>
   
+    {{ partial "rich_social_share.html" . }}
+
+
   </head>
 
   <body>
@@ -21,6 +24,8 @@
     <header>
     {{ block "global_header" . }}
         <!-- The part of the page that begins to differ between templates -->
+            {{ partial "header.html" . }}
+
     {{ end }}
     </header>
 
