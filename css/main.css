@@ -9,8 +9,8 @@ section {
  		padding: 0.1em 0.1em;
  	}	
 
-	/* h4 { font-size: 6.5vmin !important; }
-	h5 { font-size: 5.5vmin !important; } */
+	h4 { font-size: 6.5vmin !important; }
+	h5 { font-size: 5.5vmin !important; }
 
 
 	.icon-block .material-icons {
@@ -48,7 +48,6 @@ h6 { font-size: 1.5rem !important; }
 }
 
 body {
-		font-size: 1.4rem;
     display: flex;
     min-height: 100vh;
     flex-direction: column;

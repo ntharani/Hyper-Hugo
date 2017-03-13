@@ -1,6 +1,0 @@
-[build]
-  command = "yarn run netlifyhugo"
-  publish = "public"
-
-[context.deploy-preview]
-  command = "yarn run netlifyhugo"
