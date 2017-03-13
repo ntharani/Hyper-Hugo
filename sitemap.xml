@@ -2,28 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/Hyper-Hugo/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2017-03-12T21:11:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/Hyper-Hugo/services/</loc>
+    <loc>/services/</loc>
     <lastmod>2017-03-12T14:29:55-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/Hyper-Hugo/blog/welcome-to-hyperhugo/</loc>
+    <loc>/blog/welcome-to-hyperhugo/</loc>
     <lastmod>2017-03-12T12:46:02-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/Hyper-Hugo/blog/</loc>
+    <loc>/blog/</loc>
     <lastmod>2017-03-12T12:46:02-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/Hyper-Hugo/</loc>
+    <loc>/</loc>
     <lastmod>2017-03-12T21:11:00-07:00</lastmod>
     <priority>0</priority>
   </url>
