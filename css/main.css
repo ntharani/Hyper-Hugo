@@ -3,14 +3,18 @@ section {
 	padding: 1em;
 }
 
+article {
+	padding: 0.5em 0;
+}
+
 @media only screen and (min-device-width:320px) and (max-device-width : 768px) {
 	section {
  		margin:  0;
  		padding: 0.1em 0.1em;
  	}	
 
-	h4 { font-size: 6.5vmin !important; }
-	h5 { font-size: 5.5vmin !important; }
+	/* h4 { font-size: 6.5vmin !important; }
+	h5 { font-size: 5.5vmin !important; } */
 
 
 	.icon-block .material-icons {
@@ -48,6 +52,7 @@ h6 { font-size: 1.5rem !important; }
 }
 
 body {
+		font-size: 1.4rem;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
