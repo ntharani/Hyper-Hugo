@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Hyper Hugo Site</title>
-    <link>/index.xml</link>
+    <link>/Hyper-Hugo/index.xml</link>
     <description>Recent content on My Hyper Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 12 Mar 2017 21:11:00 -0700</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/Hyper-Hugo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>/Hyper-Hugo/about/</link>
       <pubDate>Sun, 12 Mar 2017 21:11:00 -0700</pubDate>
       
-      <guid>/about/</guid>
+      <guid>/Hyper-Hugo/about/</guid>
       <description>&lt;p&gt;About page. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -33,20 +33,20 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&g
     
     <item>
       <title>Services</title>
-      <link>/services/</link>
+      <link>/Hyper-Hugo/services/</link>
       <pubDate>Sun, 12 Mar 2017 14:29:55 -0700</pubDate>
       
-      <guid>/services/</guid>
+      <guid>/Hyper-Hugo/services/</guid>
       <description>&lt;p&gt;Service Page. Will use generic page/single.html template by default unless you override it with a dedicated section, eg: services/single.html&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Welcome to HYPERHUGO</title>
-      <link>/blog/welcome-to-hyperhugo/</link>
+      <link>/Hyper-Hugo/blog/welcome-to-hyperhugo/</link>
       <pubDate>Sun, 12 Mar 2017 12:46:02 -0700</pubDate>
       
-      <guid>/blog/welcome-to-hyperhugo/</guid>
+      <guid>/Hyper-Hugo/blog/welcome-to-hyperhugo/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
