@@ -1,15 +1,17 @@
 {{ define "global_header" }}
   {{ partial "header.html" . }}
+
 {{ end }}
 
 {{ define "main" }}
 
 <div class="container">
 <!-- <p>This is located within the folder /blog/single.html</p> -->
-
+<article>
   <h1>{{ .Title }}</h1>
   <h6>{{ .Date.Format "Mon, Jan 2, 2006" }}</h6>
   {{ .Content }}
+</article>
 </div>
 
 {{ end }}

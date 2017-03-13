@@ -1,7 +1,6 @@
 +++
 description = "describe this page"
-image = ""
-share_image = ""
+images = []
 author = ""
 draft = true
 +++

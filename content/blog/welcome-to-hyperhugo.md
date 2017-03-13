@@ -1,7 +1,8 @@
 +++
 date = "2017-03-12T12:46:02-07:00"
-title = "welcome to hyperhugo"
-
+title = "Welcome to HYPERHUGO"
+description = "This is the blog post description."
+images = ["https://www.nagibtharani.com/images/sdesk.jpg"]
 +++
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
