@@ -1,6 +1,10 @@
 +++
+draft = false
+author = ""
+images = []
+description = "describe this page"
 date = "2017-03-12T14:29:55-07:00"
-title = "services"
+title = "Services"
 
 +++
 

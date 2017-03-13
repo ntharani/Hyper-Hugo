@@ -6,19 +6,19 @@
 {{ define "main" }}
 
 <div class="container">
-<h1>Blog Section H1</h1>
-<h2>Blog Section H2</h2>
-<h3>Blog Section H3</h3>
-<h4>Blog Section H4</h4>
-<h5>Blog Section H5</h5>
-<h6>Blog Section H6</h6>
-<p>This is located within the folder /section/blog.html</p>
 
-  {{- range first 10 .Data.Pages }}
-    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-  {{- end }}
+<article>
+{{- range first 10 .Data.Pages }}
+    		<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
 
-
+				<p>{{ .Summary }}</p>
+			  {{ if .Truncated }}
+				  <div class="read-more-link">
+				    <a href="{{ .RelPermalink }}">Read More…</a>
+				  </div>
+			  {{end}}
+{{end}}
+</article>
 </div>
 
 {{ end }}
