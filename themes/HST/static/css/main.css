@@ -3,6 +3,10 @@ section {
 	padding: 1em;
 }
 
+article {
+	padding: 0.5em 0;
+}
+
 @media only screen and (min-device-width:320px) and (max-device-width : 768px) {
 	section {
  		margin:  0;

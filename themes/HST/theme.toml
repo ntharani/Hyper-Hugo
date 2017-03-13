@@ -1,21 +1,12 @@
-# theme.toml template for a Hugo theme
-# See https://github.com/spf13/hugoThemes#themetoml for an example
-
 name = "HST"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
-description = ""
+licenselink = "https://github.com/ntharani/HST-Materialize-Hugo/blob/master/LICENSE"
+description = "Simple Co - Hugo MaterializeCSS Theme with WebPack 2 Build Scripts"
 homepage = "http://siteforthistheme.com/"
 tags = []
 features = []
 min_version = 0.19
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Nagib Tharani"
+  homepage = "https://www.nagibtharani.com"
