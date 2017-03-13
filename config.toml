@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "My Hyper Hugo Site"
-baseurl = "https://lecturer-angelina-25845.netlify.com/"
+baseurl = "https://lecturer-angelina-25845.netlify.com"
 theme = "HST"
 
 disqusShortname = ""
