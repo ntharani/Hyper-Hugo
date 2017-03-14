@@ -1,14 +1,13 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
   <head>
-  
-  <meta name="generator" content="Hugo 0.18.1" />
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <meta name="generator" content="Hugo 0.18.1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
 
-  <title>
-    {{ block "title" . }} {{ if .IsHome }} {{ else }} {{ if .Title }} {{ .Title }} -  {{ end }} {{ end }} {{ .Site.Title }} {{ end }}
-  </title>
+    <title>
+      {{ block "title" . }} {{ if .IsHome }} {{ else }} {{ if .Title }} {{ .Title }} -  {{ end }} {{ end }} {{ .Site.Title }} {{ end }}
+    </title>
 
     <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/styles.css">
     <script src="{{ .Site.BaseURL }}/js/commons.js" ></script>
@@ -16,34 +15,15 @@
     <link rel="icon" href="/favicon.ico">
 
     {{ partial "rich_social_share.html" . }}
-
-
   </head>
 
   <body>
-
-    <header>
-    {{ block "global_header" . }}
-        <!-- The part of the page that begins to differ between templates -->
-            {{ partial "header.html" . }}
-
-    {{ end }}
-    </header>
-
-    <main>
-    {{ block "main" . }}
-        <!-- The part of the page that begins to differ between templates -->
-    {{ end }}
-    </main>
-
-    <footer>
-    {{ block "global_footer" . }}
-        <!-- The part of the page that begins to differ between templates -->
-    {{ end }}
-    </footer>
+    <!-- blocks: The part of the page that begins to differ between templates -->
+    <header>{{ block "global_header" . }}{{ partial "header.html" . }}{{ end }}</header>
+    <main>{{ block "main" . }}{{ end }}</main>
+    <footer>{{ block "global_footer" . }}{{ end }}</footer>
     
-    <link  href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-
   </body>
 </html>
