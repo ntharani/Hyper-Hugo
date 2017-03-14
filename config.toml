@@ -11,13 +11,13 @@ paginate = 10
 
 [params]
 	# To provide some metadata for search engines feel free to add a few
-  # information about you and your website.
+	# information about you and your website.
 	name = "Hyperstatic"
 	description = "My Hugo Website"
+	author = "Nagib Tharani"
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
-
 
 [params.social]
 	twitter = "gohyperstatic"
@@ -26,6 +26,10 @@ paginate = 10
 	facebook_author = "nagib.tharani"
 	facebook = "nagib.tharani"
 	facebook_app_id = ""
+
+
+	# Set menu = "main" on static pages front matter. 
+	# Only set menu.main categories for sections like "Blog" that have markdown content below.
 
 SectionPagesMenu = "main"
 
