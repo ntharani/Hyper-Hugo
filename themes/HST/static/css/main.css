@@ -3,6 +3,10 @@ section {
 	padding: 1em;
 }
 
+.active {
+	background-color: rgba(0, 0, 0, .1);
+}
+
 article {
 	padding: 0.5em 0;
 }

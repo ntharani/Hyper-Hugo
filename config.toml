@@ -26,3 +26,11 @@ paginate = 10
 	facebook_author = "nagib.tharani"
 	facebook = "nagib.tharani"
 	facebook_app_id = ""
+
+SectionPagesMenu = "main"
+
+[[menu.main]]
+    name = "Blog"
+    weight = -110
+    identifier = "blog"
+    url = "/blog/"

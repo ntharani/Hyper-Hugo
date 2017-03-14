@@ -9,24 +9,35 @@
 
 
   <nav class="blue">
+
   <div class="container">
     <div class="nav-wrapper">
+
       <a href="{{ .Site.BaseURL }}" class="brand-logo">H/Y/P/E/R/ HUGO</a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="{{ .Site.BaseURL }}/services">Services</a></li>
-        <li><a href="{{ .Site.BaseURL }}/blog">Blog</a></li>
-        <li><a href="{{ .Site.BaseURL }}/about">About</a></li>
+        {{ $currentPage := . }}
+  {{ range .Site.Menus.main }}
+
+        <li><a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a></li>
+
           <!-- Dropdown Trigger -->
 <!--         <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li> -->
+  {{ end }}
+
       </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li><a href="{{ .Site.BaseURL }}/services">Services</a></li>
-        <li><a href="{{ .Site.BaseURL }}/blog">Blog</a></li>
-        <li><a href="{{ .Site.BaseURL }}/about">About</a></li>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+
+          <li><a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a></li>
+
+        {{ end }}
       </ul>
     </div>
   </div>
+
   </nav>
           
+
 
