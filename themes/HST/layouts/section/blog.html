@@ -8,7 +8,7 @@
 <div class="container">
 
 <article>
-{{- range first 10 .Data.Pages }}
+{{- range (.Paginator).Pages }}
     		<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
 
 				<p>{{ .Summary }}</p>
@@ -19,6 +19,9 @@
 			  {{end}}
 {{end}}
 </article>
+
+{{ template "_internal/pagination.html" . }}
+
 </div>
 
 {{ end }}
@@ -26,3 +29,5 @@
 {{ define "global_footer" }}
   {{ partial "footer.html" . }}
 {{ end }}
+
+
