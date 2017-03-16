@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
   <head>
-    <meta name="generator" content="Hugo 0.19" />
+
+  {{.Hugo.Generator}}
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
 
@@ -13,10 +14,13 @@
     <script src="{{ .Site.BaseURL }}/js/commons.js" ></script>
     <script src="{{ .Site.BaseURL }}/js/app.bundle.js" ></script>
     <link rel="icon" href="/favicon.ico">
+
     {{ partial "rich_social_share.html" . }}
+
   </head>
 
   <body>
+
     <!-- blocks: The part of the page that begins to differ between templates -->
     <header>{{ block "global_header" . }}{{ partial "header.html" . }}{{ end }}</header>
     <main>{{ block "main" . }}{{ end }}</main>
@@ -24,5 +28,6 @@
     
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
   </body>
 </html>

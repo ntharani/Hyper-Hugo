@@ -14,7 +14,7 @@
 				<p>{{ .Summary }}</p>
 			  {{ if .Truncated }}
 				  <div class="read-more-link">
-				    <a href="{{ .RelPermalink }}">Read More…</a>
+				    <a href="{{ .RelPermalink }}">Read More… | {{ .WordCount }} Words | ~{{ .ReadingTime }} min read  </a>
 				  </div>
 			  {{end}}
 {{end}}
