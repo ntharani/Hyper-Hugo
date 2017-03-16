@@ -1,14 +1,17 @@
 # To Do:
 
-1. Add content archetypes back in
-2. Add blog type and front matter
-3. Add section type and associated front matter
-4. Add FB, Twitter, Google share/rich site data
-5. Add Google Analytics
+- Add Google Analytics Partial
+- Add Disqus Partial
+- Add Google Rich Site Data Partial - Using JSON+LD, not RDF.
 
 # Done
 
 - Factor header and footer into partials and master layout.
+- Add content archetypes back in
+- Add blog type and front matter
+- Add section type and associated front matter
+- Add FB, Twitter
+- Add Pagination Support
 
 # Hyper Hugo
 
